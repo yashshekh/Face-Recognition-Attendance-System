@@ -74,7 +74,7 @@ Make sure you have Python installed on your system. You can download it from [he
    python main.py
 
 5. Optional: Configure Camera Settings
-If you are using an external webcam or default camera, you can modify the camera index in the code by changing the parameter in the 'cv2.VideoCapture()' method.
+If you are using an external webcam or default camera, you can modify the camera index in the code by changing the parameter in the `cv2.VideoCapture()` method.
 
     ```bash
    video_capture = cv2.VideoCapture(0)  # Default camera (0), change for external cameras
