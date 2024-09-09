@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Face Recognition Attendance System** that uses Local Binary Pattern Histogram (LBPH) and Haar Cascade classifier and take attendance in real-time. This system captures a person's face, identifies them using a pre-trained face recognition model, and logs their attendance into a CSV file with timestamps.
+The **Face Recognition Automatic Attendance System** that uses Local Binary Pattern Histogram (LBPH) and Haar Cascade classifier and take attendance in real-time. This system captures a person's face, identifies them using a pre-trained face recognition model, and logs their attendance into a CSV file with timestamps.
 
 ## Features
 
@@ -80,12 +80,11 @@ If you are using an external webcam or default camera, you can modify the camera
    video_capture = cv2.VideoCapture(0)  # Default camera (0), change for external cameras
 
 ## Project Structure
-
-├── known_faces/             # Folder containing images of known faces
-├── attendance.csv           # CSV file for logging attendance
-├── main.py                  # Main script to run the application
-├── requirements.txt         # Required Python libraries
-└── README.md                # Project documentation
+ ─ known_faces/             # Folder containing images of known faces
+ ─ attendance.csv           # CSV file for logging attendance
+ ─ main.py                  # Main script to run the application
+ ─ requirements.txt         # Required Python libraries
+ ─ README.md                # Project documentation
 
    
    
