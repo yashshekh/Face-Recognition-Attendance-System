@@ -80,7 +80,7 @@ If you are using an external webcam or default camera, you can modify the camera
    video_capture = cv2.VideoCapture(0)  # Default camera (0), change for external cameras
 
 ## Project Structure
- - known_faces/             # Folder containing images of known faces
+ - known_faces             # Folder containing images of known faces
  - attendance.csv           # CSV file for logging attendance
  - main.py                  # Main script to run the application
  - requirements.txt         # Required Python libraries
