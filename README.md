@@ -1,5 +1,43 @@
-# Face-Recognition-Attendance-System
-Face Recognition Automatic Attendance System using Python and OpenCV
-The Face Recognition Attendance System is a sophisticated solution designed to automate and streamline the attendance management process. Leveraging the power of Python programming, OpenCV for computer vision tasks, and Tkinter for the graphical user interface (GUI), this system offers a robust and user-friendly experience. It begins by employing OpenCV's face detection capabilities, which utilize deep learning models to accurately locate faces in live video streams or images. Subsequently, the system encodes facial features into numerical representations using techniques like LBPH Face Recognizer and Haarcascade, allowing for efficient comparison and identification.
+# Face Recognition Attendance System
 
-To manage attendance data, the system maintains a database of known faces along with their corresponding encodings, facilitating seamless recognition during attendance marking. The GUI, developed using Tkinter, provides intuitive controls for starting and stopping the camera, marking attendance, and viewing attendance records. Additionally, error handling mechanisms are integrated to manage potential issues such as camera disconnection or face detection failures. Security measures like data encryption are also implemented to safeguard sensitive information like facial images and attendance records. Overall, this system offers a comprehensive solution for attendance management across various domains, optimizing efficiency and accuracy while reducing manual workload.
+## Overview
+
+The **Face Recognition Attendance System** is a Python-based application that uses face recognition technology to take attendance in real-time. This system captures a person's face, identifies them using a pre-trained face recognition model, and logs their attendance into a CSV file with timestamps.
+
+## Features
+
+- Real-time face detection and recognition using the camera/webcam.
+- Automatic attendance logging with names and timestamps.
+- Pre-trained model for face recognition using `dlib` and `face_recognition` libraries.
+- Simple and intuitive graphical user interface (GUI) for ease of use.
+- Attendance stored in a CSV file for easy access and further processing.
+
+## Demo
+1. Interface (GUI)
+ ![main](https://github.com/user-attachments/assets/6b9b0867-cea9-4a5b-89be-a310a3ce5c87)
+
+
+## Tech Stack
+
+- **Language**: Python
+- **Libraries**:
+  - `OpenCV`: For real-time video capturing and processing.
+  - `dlib`: For face detection.
+  - `face_recognition`: For facial recognition.
+  - `Tkinter`: For the GUI interface.
+  - `Numpy`: For numerical operations.
+
+## Installation
+
+Follow these steps to set up and run the project on your local machine.
+
+### Prerequisites
+
+Make sure you have Python installed on your system. You can download it from [here](https://www.python.org/downloads/).
+
+### Step-by-Step Setup
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yashshekh/Face-Recognition-Attendance-System.git
