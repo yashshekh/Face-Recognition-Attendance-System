@@ -16,6 +16,14 @@ The **Face Recognition Attendance System** is a Python-based application that us
 1. Interface (GUI)
  ![main](https://github.com/user-attachments/assets/6b9b0867-cea9-4a5b-89be-a310a3ce5c87)
 
+2. Student Details
+ ![image](https://github.com/user-attachments/assets/2e5be1d1-01ba-4c8c-b709-1a65b19f6e62)
+
+ 
+
+4. 
+
+
 
 ## Tech Stack
 
